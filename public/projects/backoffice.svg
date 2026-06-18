@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0f172a"/>
+  <rect x="40" y="80" width="200" height="330" rx="8" fill="#1e293b" stroke="#334155"/>
+  <rect x="280" y="80" width="480" height="330" rx="8" fill="#1e293b" stroke="#334155"/>
+  <text x="520" y="50" text-anchor="middle" fill="#33a6ff" font-family="system-ui" font-size="24" font-weight="bold">Back Office Portal</text>
+  <rect x="60" y="120" width="160" height="12" rx="3" fill="#1a87f5"/>
+  <rect x="60" y="150" width="160" height="12" rx="3" fill="#334155"/>
+  <rect x="60" y="180" width="160" height="12" rx="3" fill="#334155"/>
+  <rect x="320" y="120" width="400" height="200" rx="6" fill="#0f172a" stroke="#334155"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0f172a"/>
+  <rect x="40" y="40" width="720" height="370" rx="12" fill="#1e293b" stroke="#334155"/>
+  <text x="400" y="200" text-anchor="middle" fill="#33a6ff" font-family="system-ui" font-size="28" font-weight="bold">MLM Platform</text>
+  <text x="400" y="240" text-anchor="middle" fill="#94a3b8" font-family="system-ui" font-size="16">5,000+ Users · Binary Tree Logic</text>
+  <circle cx="200" cy="320" r="40" fill="#1a87f5" opacity="0.3"/>
+  <circle cx="400" cy="300" r="50" fill="#1a87f5" opacity="0.5"/>
+  <circle cx="600" cy="320" r="40" fill="#1a87f5" opacity="0.3"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0f172a"/>
+  <text x="400" y="50" text-anchor="middle" fill="#33a6ff" font-family="system-ui" font-size="22" font-weight="bold">Student Attendance</text>
+  <rect x="250" y="100" width="300" height="500" rx="24" fill="#1e293b" stroke="#334155" transform="scale(0.6) translate(200,80)"/>
+  <rect x="200" y="120" width="400" height="250" rx="12" fill="#1e293b" stroke="#334155"/>
+  <circle cx="400" cy="200" r="40" fill="#1a87f5" opacity="0.4"/>
+  <rect x="300" y="280" width="200" height="40" rx="8" fill="#1a87f5" opacity="0.6"/>
+</svg>
