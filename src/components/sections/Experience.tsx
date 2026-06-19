@@ -1,4 +1,4 @@
-import { Briefcase } from 'lucide-react';
+import { Briefcase, ExternalLink } from 'lucide-react';
 import { portfolioData } from '../../data/portfolio';
 import { Container } from '../ui/Container';
 import { SectionHeading } from '../ui/SectionHeading';
@@ -71,6 +71,23 @@ export function Experience() {
                         </Badge>
                       ))}
                     </div>
+
+                    {job.links && job.links.length > 0 && (
+                      <div className="mt-4 flex flex-wrap gap-2">
+                        {job.links.map((link) => (
+                          <a
+                            key={link.url}
+                            href={link.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1.5 rounded-lg border border-surface-200 bg-surface-50 px-3 py-1.5 text-xs font-medium text-brand-600 transition-colors hover:border-brand-300 hover:bg-brand-50 dark:border-surface-700 dark:bg-surface-800 dark:text-brand-400 dark:hover:border-brand-700"
+                          >
+                            {link.label}
+                            <ExternalLink size={12} />
+                          </a>
+                        ))}
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>

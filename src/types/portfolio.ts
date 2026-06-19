@@ -18,6 +18,7 @@ export interface ExperienceItem {
   description: string;
   achievements: string[];
   technologies: string[];
+  links?: { label: string; url: string }[];
 }
 
 export interface Project {

@@ -14,16 +14,16 @@ export const portfolioData: PortfolioData = {
     resumeUrl: "/resume/morales-dexter-cv.pdf",
     github: "https://github.com/dexter-morales",
     linkedin: "https://www.linkedin.com/in/dexter-morales",
-    yearsExperience: 4,
+    yearsExperience: 5,
   },
 
   about: {
     summary:
       "Results-driven Full-Stack Web Developer with 4+ years of hands-on experience in PHP, Laravel, React, and MySQL. Proven track record of building scalable MLM and e-commerce platforms from scratch, refactoring legacy systems for performance, and delivering enterprise-grade web solutions. Passionate about clean code, performance optimization, and user-centric design.",
     highlights: [
+      "Architected and built M5nity Global Corporation's MLM, e-commerce, hub, and barangay systems from scratch",
       "Built MLM platform handling 5,000+ active users with custom binary tree logic",
       "Reduced e-commerce load times by 40% through query and frontend optimization",
-      "Modernized legacy systems, resolving conflicts and improving maintainability",
       "BS Information Technology graduate from Pamantasan ng Lungsod ng Muntinlupa",
     ],
     strengths: [
@@ -84,6 +84,7 @@ export const portfolioData: PortfolioData = {
       skills: [
         "Git",
         "GitHub",
+        "Laravel Forge",
         "VS Code",
         "Crystal Reports",
         "Hardware Deployment",
@@ -112,6 +113,41 @@ export const portfolioData: PortfolioData = {
   ],
 
   experience: [
+    {
+      id: "m5nity",
+      role: "IT Specialist",
+      company: "M5nity Global Corporation",
+      period: "October 2025 – Present",
+      location: "Philippines",
+      description:
+        "Lead full-stack developer building production web systems from the ground up — MLM platform, e-commerce store, internal hub portal, and barangay management system deployed via Laravel Forge.",
+      achievements: [
+        "Developed the company's core MLM platform from scratch with member management, genealogy tracking, and commission workflows",
+        "Built and launched the e-commerce storefront for product sales and order processing",
+        "Created M5nity Hub — an internal admin portal for operations, authentication, and system management",
+        "Delivered a Barangay Management Information System for online document requests and local government workflows",
+        "Owned full-stack architecture, database design, API development, and production deployment on Laravel Forge",
+        "Maintained version control and release workflows using Git across all production applications",
+      ],
+      technologies: [
+        "Laravel",
+        "React",
+        "MySQL",
+        "Tailwind CSS",
+        "Git",
+        "Laravel Forge",
+        "REST APIs",
+      ],
+      links: [
+        { label: "MLM Platform", url: "https://m5nity-global-corp.com/" },
+        { label: "E-Commerce", url: "https://shop.m5nity-global-corp.com/ecomm" },
+        { label: "M5nity Hub", url: "https://hub.m5nity-global-corp.com/login" },
+        {
+          label: "Barangay MIS",
+          url: "https://qiqimutech-bmis.m5nity-global-corp.com/",
+        },
+      ],
+    },
     {
       id: "entrepro",
       role: "IT Associate",
@@ -431,7 +467,7 @@ export const portfolioData: PortfolioData = {
   testimonials: [],
 
   stats: [
-    { label: "Years Experience", value: "4+" },
+    { label: "Years Experience", value: "5+" },
     { label: "Projects Delivered", value: "12+" },
     { label: "Users Supported", value: "5K+" },
     { label: "Performance Gain", value: "40%" },
