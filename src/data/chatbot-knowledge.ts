@@ -45,7 +45,7 @@ export const chatbotKnowledge: KnowledgeEntry[] = [
   {
     keywords: ["projects", "portfolio", "work", "built", "applications"],
     category: "projects",
-    answer: `Featured projects include:\n• MLM Platform — 5,000+ users, custom binary tree logic\n• E-Commerce Platform — 40% performance improvement\n• Back Office Portal — enterprise admin system\n• HRIS — employee management & leave tracking\n• Student Attendance System — device-locked authentication\n• Barangay Document Management — online request system`,
+    answer: `Featured projects include:\n• M5nity MLM Platform — built from scratch at M5nity Global Corporation\n• M5nity E-Commerce — shop.m5nity-global-corp.com\n• M5nity Hub — internal admin portal\n• Barangay MIS — online document request system\n• EntrePro MLM Platform — 5,000+ users\n• E-Commerce Platform — 40% performance improvement\n• HRIS, Student Attendance, and more`,
   },
   {
     keywords: ["mlm", "multi-level", "binary tree", "entrepro"],

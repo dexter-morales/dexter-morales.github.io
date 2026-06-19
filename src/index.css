@@ -34,14 +34,36 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
   }
 
   body {
     @apply bg-surface-50 text-surface-900 antialiased dark:bg-surface-950 dark:text-surface-100;
+    overflow-x: hidden;
   }
 
+  /* High-contrast text selection — readable on light and dark backgrounds */
   ::selection {
-    @apply bg-brand-500/30 text-brand-900 dark:text-brand-100;
+    background-color: #1a87f5;
+    color: #ffffff;
+  }
+
+  .dark ::selection {
+    background-color: #7dd3fc;
+    color: #020617;
+  }
+
+  /* Gradient headings: selection must not inherit transparent clip text */
+  .text-gradient::selection {
+    -webkit-text-fill-color: #ffffff;
+    color: #ffffff;
+    background-color: #1a87f5;
+  }
+
+  .dark .text-gradient::selection {
+    -webkit-text-fill-color: #020617;
+    color: #020617;
+    background-color: #7dd3fc;
   }
 }
 
@@ -55,6 +77,26 @@
   }
 
   .section-padding {
-    @apply px-4 py-20 sm:px-6 lg:px-8 lg:py-28;
+    @apply px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-28;
+  }
+
+  /* Chat bubble selection overrides */
+  .chat-user ::selection {
+    background-color: #ffffff;
+    color: #1a87f5;
+  }
+
+  .chat-assistant ::selection {
+    background-color: #1a87f5;
+    color: #ffffff;
+  }
+
+  .dark .chat-assistant ::selection {
+    background-color: #7dd3fc;
+    color: #020617;
+  }
+
+  .pb-safe {
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
   }
 }

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0f172a"/>
+  <text x="400" y="170" text-anchor="middle" fill="#33a6ff" font-family="system-ui" font-size="22" font-weight="bold">Barangay MIS</text>
+  <text x="400" y="205" text-anchor="middle" fill="#94a3b8" font-family="system-ui" font-size="13">qiqimutech-bmis.m5nity-global-corp.com</text>
+  <rect x="150" y="240" width="220" height="150" rx="8" fill="#1e293b" stroke="#334155"/>
+  <rect x="430" y="240" width="220" height="150" rx="8" fill="#1e293b" stroke="#334155"/>
+  <rect x="170" y="270" width="180" height="12" rx="3" fill="#1a87f5"/>
+</svg>

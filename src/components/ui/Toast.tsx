@@ -50,7 +50,7 @@ function ToastMessage({
       transition={{ duration: 0.2 }}
       role="status"
       aria-live="polite"
-      className={`flex w-full max-w-sm items-start gap-3 rounded-xl border p-4 shadow-lg ${styles[toast.type]}`}
+      className={`flex w-full max-w-none items-start gap-3 rounded-xl border p-4 shadow-lg sm:max-w-sm ${styles[toast.type]}`}
     >
       <Icon size={20} className="mt-0.5 shrink-0" aria-hidden="true" />
       <p className="flex-1 text-sm leading-relaxed">{toast.message}</p>
@@ -70,7 +70,7 @@ export function ToastContainer({ toasts, onDismiss }: ToastProps) {
   return (
     <div
       aria-label="Notifications"
-      className="pointer-events-none fixed right-4 bottom-4 z-[100] flex flex-col gap-3"
+      className="pointer-events-none fixed inset-x-4 bottom-[calc(5.5rem+env(safe-area-inset-bottom))] z-[100] flex flex-col gap-3 sm:inset-x-auto sm:right-4 sm:bottom-4"
     >
       <AnimatePresence mode="popLayout">
         {toasts.map((toast) => (

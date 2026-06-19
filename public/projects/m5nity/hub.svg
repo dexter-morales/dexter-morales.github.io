@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0f172a"/>
+  <text x="400" y="180" text-anchor="middle" fill="#33a6ff" font-family="system-ui" font-size="26" font-weight="bold">M5nity Hub</text>
+  <text x="400" y="220" text-anchor="middle" fill="#94a3b8" font-family="system-ui" font-size="14">hub.m5nity-global-corp.com</text>
+  <rect x="280" y="260" width="240" height="140" rx="12" fill="#1e293b" stroke="#334155"/>
+  <rect x="310" y="320" width="180" height="36" rx="6" fill="#334155"/>
+  <rect x="310" y="370" width="180" height="36" rx="6" fill="#1a87f5" opacity="0.8"/>
+</svg>

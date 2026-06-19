@@ -62,14 +62,14 @@ export function Hero() {
             </FadeIn>
 
             <FadeIn delay={0.5}>
-              <div className="mt-8 flex flex-wrap gap-4">
-                <Button href="#projects" size="lg">
+              <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
+                <Button href="#projects" size="lg" className="w-full sm:w-auto">
                   View Projects <ArrowRight size={18} />
                 </Button>
-                <Button href={personal.resumeUrl} variant="outline" size="lg" external>
+                <Button href={personal.resumeUrl} variant="outline" size="lg" className="w-full sm:w-auto" external>
                   <Download size={18} /> Download Resume
                 </Button>
-                <Button href="#contact" variant="secondary" size="lg">
+                <Button href="#contact" variant="secondary" size="lg" className="w-full sm:w-auto">
                   <Mail size={18} /> Contact Me
                 </Button>
               </div>

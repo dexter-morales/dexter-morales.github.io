@@ -31,9 +31,9 @@ export function Experience() {
                   <Briefcase size={18} />
                 </div>
 
-                <div className="w-full pl-16 md:w-1/2 md:pl-0">
+                <div className="w-full pl-14 sm:pl-16 md:w-1/2 md:pl-0">
                   <div
-                    className={`rounded-2xl border border-surface-200 bg-white p-6 shadow-sm dark:border-surface-800 dark:bg-surface-900 ${
+                    className={`rounded-2xl border border-surface-200 bg-white p-4 shadow-sm sm:p-6 dark:border-surface-800 dark:bg-surface-900 ${
                       i % 2 === 0 ? 'md:mr-10' : 'md:ml-10'
                     }`}
                   >

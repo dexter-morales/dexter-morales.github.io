@@ -37,7 +37,7 @@ export function ChatWindow({ isOpen, messages, isTyping, onClose, onSend }: Chat
           animate={{ opacity: 1, y: 0, scale: 1 }}
           exit={{ opacity: 0, y: 20, scale: 0.95 }}
           transition={{ duration: 0.2 }}
-          className="fixed right-4 bottom-24 z-50 flex h-[min(560px,calc(100vh-8rem))] w-[min(400px,calc(100vw-2rem))] flex-col overflow-hidden rounded-2xl border border-surface-200 bg-white shadow-2xl dark:border-surface-700 dark:bg-surface-900"
+          className="fixed inset-x-3 bottom-[calc(5.5rem+env(safe-area-inset-bottom))] z-50 flex h-[min(560px,calc(100dvh-7rem-env(safe-area-inset-bottom)))] flex-col overflow-hidden rounded-2xl border border-surface-200 bg-white shadow-2xl sm:inset-x-auto sm:right-4 sm:bottom-24 sm:h-[min(560px,calc(100vh-8rem))] sm:w-[min(400px,calc(100vw-2rem))] dark:border-surface-700 dark:bg-surface-900"
           role="dialog"
           aria-label="Portfolio assistant chat"
         >

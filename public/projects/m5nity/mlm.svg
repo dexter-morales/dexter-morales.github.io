@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" fill="none">
+  <rect width="800" height="450" fill="#0f172a"/>
+  <text x="400" y="180" text-anchor="middle" fill="#33a6ff" font-family="system-ui" font-size="26" font-weight="bold">M5nity MLM Platform</text>
+  <text x="400" y="220" text-anchor="middle" fill="#94a3b8" font-family="system-ui" font-size="14">m5nity-global-corp.com</text>
+  <circle cx="400" cy="300" r="35" fill="#1a87f5"/>
+  <circle cx="300" cy="360" r="25" fill="#1a87f5" opacity="0.6"/>
+  <circle cx="500" cy="360" r="25" fill="#1a87f5" opacity="0.6"/>
+</svg>

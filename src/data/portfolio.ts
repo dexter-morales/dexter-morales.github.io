@@ -140,8 +140,14 @@ export const portfolioData: PortfolioData = {
       ],
       links: [
         { label: "MLM Platform", url: "https://m5nity-global-corp.com/" },
-        { label: "E-Commerce", url: "https://shop.m5nity-global-corp.com/ecomm" },
-        { label: "M5nity Hub", url: "https://hub.m5nity-global-corp.com/login" },
+        {
+          label: "E-Commerce",
+          url: "https://shop.m5nity-global-corp.com/ecomm",
+        },
+        {
+          label: "M5nity Hub",
+          url: "https://hub.m5nity-global-corp.com/login",
+        },
         {
           label: "Barangay MIS",
           url: "https://qiqimutech-bmis.m5nity-global-corp.com/",
@@ -205,6 +211,111 @@ export const portfolioData: PortfolioData = {
   ],
 
   projects: [
+    {
+      id: "m5nity-mlm",
+      title: "M5nity MLM Platform",
+      category: "enterprise",
+      year: "2025 – Present",
+      description:
+        "Production MLM platform built from scratch for M5nity Global Corporation — member genealogy, commissions, dashboards, and real-time network management.",
+      problem:
+        "M5nity needed a custom multi-level marketing system to manage members, track downlines, and run commission workflows on a modern full-stack architecture.",
+      features: [
+        "Built from scratch with Laravel & React",
+        "Member genealogy & downline tracking",
+        "Commission calculation workflows",
+        "Member dashboard & reporting",
+        "Production deployment via Laravel Forge",
+      ],
+      technologies: [
+        "Laravel",
+        "React",
+        "MySQL",
+        "Tailwind CSS",
+        "Git",
+        "Laravel Forge",
+      ],
+      images: [
+        "/projects/m5nity/mlm/image-1.png",
+        "/projects/m5nity/mlm/image-2.png",
+      ],
+      liveUrl: "https://m5nity-global-corp.com/",
+      featured: true,
+    },
+    {
+      id: "m5nity-ecomm",
+      title: "M5nity E-Commerce",
+      category: "enterprise",
+      year: "2025 – Present",
+      description:
+        "Full e-commerce storefront for M5nity product sales — catalog browsing, cart, checkout, and order management integrated with the MLM ecosystem.",
+      problem:
+        "The company required a dedicated online store for product sales that integrates with their MLM member base and operational workflows.",
+      features: [
+        "Product catalog & inventory",
+        "Shopping cart & checkout",
+        "Order management",
+        "Member-linked purchasing",
+        "Responsive Tailwind UI",
+      ],
+      technologies: ["Laravel", "React", "MySQL", "Tailwind CSS", "REST APIs"],
+      images: [
+        "/projects/m5nity/ecomm/image-1.png",
+        "/projects/m5nity/ecomm/image-2.png",
+        "/projects/m5nity/ecomm/image-3.png",
+        "/projects/m5nity/ecomm/image-4.png",
+        "/projects/m5nity/ecomm/image-5.png",
+      ],
+      liveUrl: "https://shop.m5nity-global-corp.com/ecomm",
+      featured: true,
+    },
+    {
+      id: "m5nity-hub",
+      title: "M5nity Hub",
+      category: "enterprise",
+      year: "2025 – Present",
+      description:
+        "Internal admin portal for M5nity operations — authentication, system management, and centralized control for administrators and staff.",
+      problem:
+        "Administrators needed a secure hub to manage users, monitor operations, and control access across M5nity's production systems.",
+      features: [
+        "Secure login & authentication",
+        "Admin dashboard",
+        "User & role management",
+        "System configuration",
+        "Centralized operations portal",
+      ],
+      technologies: ["Laravel", "React", "MySQL", "Tailwind CSS", "REST APIs"],
+      images: ["/projects/m5nity/hub/image-1.png"],
+      liveUrl: "https://hub.m5nity-global-corp.com/login",
+      featured: true,
+    },
+    {
+      id: "m5nity-bmis",
+      title: "Barangay Management Information System",
+      category: "enterprise",
+      year: "2025 – Present",
+      description:
+        "Web-based barangay MIS for online document requests, resident services, and local government workflow management.",
+      problem:
+        "Barangay offices needed a digital system to replace manual document requests and reduce queues for residents seeking certificates and permits.",
+      features: [
+        "Online document requests",
+        "Request status tracking",
+        "Admin approval workflow",
+        "Resident portal",
+        "Barangay record management",
+      ],
+      technologies: ["Laravel", "React", "MySQL", "Tailwind CSS"],
+      images: [
+        "/projects/m5nity/bmis/image-1.png",
+        "/projects/m5nity/bmis/image-2.png",
+        "/projects/m5nity/bmis/image-3.png",
+        "/projects/m5nity/bmis/image-4.png",
+      ],
+      liveUrl: "https://qiqimutech-bmis.m5nity-global-corp.com/",
+      featured: true,
+    },
     {
       id: "mlm-platform",
       title: "MLM Platform",
