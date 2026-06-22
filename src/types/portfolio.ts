@@ -78,8 +78,10 @@ export interface PortfolioData {
   personal: PersonalInfo;
   about: {
     summary: string;
+    specializations: string[];
     highlights: string[];
-    strengths: string[];
+    technicalSkills: string[];
+    closing: string;
   };
   education: {
     degree: string;

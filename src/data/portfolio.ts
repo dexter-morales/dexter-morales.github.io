@@ -4,9 +4,9 @@ export const portfolioData: PortfolioData = {
   personal: {
     name: "Dexter Paul Morales",
     firstName: "Dexter",
-    title: "Full-Stack Web Developer",
+    title: "Full-Stack Software Engineer",
     tagline:
-      "I build scalable, production-ready web applications — from MLM platforms serving 2,000+ users to enterprise HR and e-commerce systems.",
+      "I build scalable, production-ready web applications — from MLM platforms serving 2,000+ users to enterprise HR, ERP, and e-commerce systems.",
     email: "morales.dexter.0427@gmail.com",
     phone: "0916-706-1282",
     location: "Biñan City, Laguna, Philippines",
@@ -19,21 +19,41 @@ export const portfolioData: PortfolioData = {
 
   about: {
     summary:
-      "Results-driven Full-Stack Web Developer with 4+ years of hands-on experience in PHP, Laravel, React, and MySQL. Proven track record of building scalable MLM and e-commerce platforms from scratch, refactoring legacy systems for performance, and delivering enterprise-grade web solutions. Passionate about clean code, performance optimization, and user-centric design.",
+      "Full-Stack Software Engineer with 5+ years of experience designing, developing, and deploying scalable web applications using Laravel, React, PHP, TypeScript, MySQL, and REST APIs.",
+    specializations: [
+      "Human Resource Management Systems (HRMS)",
+      "Enterprise Resource Planning (ERP)",
+      "Multi-Level Marketing (MLM) Platforms",
+      "E-Commerce Platforms",
+      "Payroll & Attendance Systems",
+      "Barangay Management Information Systems",
+      "Back Office & Administrative Portals",
+    ],
     highlights: [
       "Architected and built M5nity Global Corporation's MLM, e-commerce, hub, and barangay systems from scratch",
       "Built MLM platform handling 2,000+ active users with custom binary tree logic",
       "Reduced e-commerce load times by 40% through query and frontend optimization",
+      "Improved platform performance through query optimization and system refactoring",
+      "Delivered business-critical applications used in daily operations",
       "BS Information Technology graduate from Pamantasan ng Lungsod ng Muntinlupa",
     ],
-    strengths: [
-      "Full-stack architecture & API design",
-      "Legacy system modernization",
-      "Performance optimization",
-      "Hardware-software integration",
-      "System debugging & troubleshooting",
-      "Independent & team collaboration",
+    technicalSkills: [
+      "Laravel",
+      "React",
+      "PHP",
+      "TypeScript",
+      "JavaScript",
+      "MySQL",
+      "REST APIs",
+      "Inertia.js",
+      "Git",
+      "Laravel Forge",
+      "Tailwind CSS",
+      "Database Design",
+      "System Architecture",
     ],
+    closing:
+      "I enjoy solving complex business problems through technology and building secure, scalable, and maintainable software solutions.",
   },
 
   education: {
@@ -95,6 +115,7 @@ export const portfolioData: PortfolioData = {
       title: "Frameworks & Patterns",
       skills: [
         "MVC Architecture",
+        "Inertia.js",
         "Component Architecture",
         "Agile Development",
         "CI/CD Basics",
@@ -163,7 +184,7 @@ export const portfolioData: PortfolioData = {
       description:
         "Full-stack web developer responsible for MLM, e-commerce, and back-office platforms — from architecture and feature development to performance optimization and production support.",
       achievements: [
-        "Built a scalable MLM system handling 5,000+ users with custom binary tree logic, ensuring long-term maintainability and real-time performance",
+        "Built a scalable MLM system handling 2,000+ users with custom binary tree logic, ensuring long-term maintainability and real-time performance",
         "Refactored and modernized legacy MLM logic, resolving system conflicts and improving performance",
         "Built a custom algorithm for binary tree alignment and accurate downline/member count reporting",
         "Configured and deployed hardware and software environments to support internal development and employee workstations",
@@ -327,7 +348,7 @@ export const portfolioData: PortfolioData = {
         "The company needed a scalable MLM system that could handle thousands of members with accurate binary tree alignment and real-time reporting.",
       features: [
         "Custom binary tree algorithm",
-        "5,000+ active user support",
+        "2,000+ active user support",
         "Real-time downline tracking",
         "Commission calculation engine",
         "Member dashboard & reporting",
@@ -580,7 +601,7 @@ export const portfolioData: PortfolioData = {
   stats: [
     { label: "Years Experience", value: "5+" },
     { label: "Projects Delivered", value: "12+" },
-    { label: "Users Supported", value: "5K+" },
+    { label: "Users Supported", value: "2K+" },
     { label: "Performance Gain", value: "40%" },
   ],
 

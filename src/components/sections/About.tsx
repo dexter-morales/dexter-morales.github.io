@@ -14,7 +14,7 @@ export function About() {
         <SectionHeading
           label="About Me"
           title="Building reliable systems that scale"
-          description="Passionate about clean code, performance, and delivering production-ready solutions."
+          description="Designing and delivering enterprise-grade software that powers real business operations."
         />
 
         <div className="grid gap-8 lg:grid-cols-5">
@@ -23,6 +23,22 @@ export function About() {
               <p className="text-lg leading-relaxed text-surface-600 dark:text-surface-300">
                 {about.summary}
               </p>
+
+              <p className="mt-6 text-base font-medium text-surface-800 dark:text-surface-200">
+                I specialize in building enterprise-grade business systems from the ground up,
+                including:
+              </p>
+              <ul className="mt-3 space-y-2">
+                {about.specializations.map((item) => (
+                  <li
+                    key={item}
+                    className="flex gap-3 text-sm text-surface-600 dark:text-surface-400"
+                  >
+                    <span className="mt-0.5 shrink-0 text-brand-500">•</span>
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
 
               <h3 className="mt-8 mb-4 text-lg font-semibold text-surface-900 dark:text-white">
                 Career Highlights
@@ -38,6 +54,10 @@ export function About() {
                   </li>
                 ))}
               </ul>
+
+              <p className="mt-8 text-base leading-relaxed text-surface-600 dark:text-surface-300">
+                {about.closing}
+              </p>
             </Card>
           </FadeIn>
 
@@ -45,15 +65,15 @@ export function About() {
             <FadeIn delay={0.1}>
               <Card>
                 <h3 className="mb-4 text-lg font-semibold text-surface-900 dark:text-white">
-                  Core Strengths
+                  Technical Skills
                 </h3>
                 <div className="flex flex-wrap gap-2">
-                  {about.strengths.map((strength) => (
+                  {about.technicalSkills.map((skill) => (
                     <span
-                      key={strength}
+                      key={skill}
                       className="rounded-lg bg-brand-500/10 px-3 py-1.5 text-sm font-medium text-brand-700 dark:text-brand-300"
                     >
-                      {strength}
+                      {skill}
                     </span>
                   ))}
                 </div>
