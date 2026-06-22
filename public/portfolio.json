@@ -1,0 +1,469 @@
+{
+  "name": "Dexter Paul Morales",
+  "title": "Full-Stack Web Developer",
+  "email": "morales.dexter.0427@gmail.com",
+  "phone": "0916-706-1282",
+  "location": "Biñan City, Laguna, Philippines",
+  "website": "https://dexter-morales.github.io",
+  "resume": "https://dexter-morales.github.io/resume/morales-dexter-cv.pdf",
+  "github": "https://github.com/dexter-morales",
+  "linkedin": "https://www.linkedin.com/in/dexter-morales",
+  "yearsExperience": 5,
+  "summary": "Results-driven Full-Stack Web Developer with 4+ years of hands-on experience in PHP, Laravel, React, and MySQL. Proven track record of building scalable MLM and e-commerce platforms from scratch, refactoring legacy systems for performance, and delivering enterprise-grade web solutions. Passionate about clean code, performance optimization, and user-centric design.",
+  "highlights": [
+    "Architected and built M5nity Global Corporation's MLM, e-commerce, hub, and barangay systems from scratch",
+    "Built MLM platform handling 5,000+ active users with custom binary tree logic",
+    "Reduced e-commerce load times by 40% through query and frontend optimization",
+    "BS Information Technology graduate from Pamantasan ng Lungsod ng Muntinlupa"
+  ],
+  "skills": [
+    {
+      "title": "Frontend",
+      "skills": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "Tailwind CSS",
+        "Bootstrap",
+        "Responsive Design"
+      ]
+    },
+    {
+      "title": "Backend",
+      "skills": [
+        "PHP",
+        "Laravel",
+        "CodeIgniter",
+        "REST APIs",
+        "Python",
+        "VB.NET",
+        "Node.js"
+      ]
+    },
+    {
+      "title": "Database",
+      "skills": [
+        "MySQL",
+        "Database Design",
+        "Query Optimization",
+        "Data Modeling"
+      ]
+    },
+    {
+      "title": "DevOps & Tools",
+      "skills": [
+        "Git",
+        "GitHub",
+        "Laravel Forge",
+        "VS Code",
+        "Crystal Reports",
+        "Hardware Deployment",
+        "System Administration"
+      ]
+    },
+    {
+      "title": "Frameworks & Patterns",
+      "skills": [
+        "MVC Architecture",
+        "Component Architecture",
+        "Agile Development",
+        "CI/CD Basics"
+      ]
+    },
+    {
+      "title": "Other",
+      "skills": [
+        "Arduino (C)",
+        "Adobe Photoshop",
+        "Video Editing",
+        "Technical Support",
+        "Biometrics Integration"
+      ]
+    }
+  ],
+  "education": {
+    "degree": "Bachelor of Science in Information Technology",
+    "school": "Pamantasan ng Lungsod ng Muntinlupa (PLMun)",
+    "period": "2017 – 2021",
+    "description": "Comprehensive training in programming languages, web development, computer hardware, network administration, cybersecurity, and system analysis."
+  },
+  "experience": [
+    {
+      "role": "IT Specialist",
+      "company": "M5nity Global Corporation",
+      "period": "October 2025 – Present",
+      "description": "Lead full-stack developer building production web systems from the ground up — MLM platform, e-commerce store, internal hub portal, and barangay management system deployed via Laravel Forge.",
+      "achievements": [
+        "Developed the company's core MLM platform from scratch with member management, genealogy tracking, and commission workflows",
+        "Built and launched the e-commerce storefront for product sales and order processing",
+        "Created M5nity Hub — an internal admin portal for operations, authentication, and system management",
+        "Delivered a Barangay Management Information System for online document requests and local government workflows",
+        "Owned full-stack architecture, database design, API development, and production deployment on Laravel Forge",
+        "Maintained version control and release workflows using Git across all production applications"
+      ],
+      "technologies": [
+        "Laravel",
+        "React",
+        "MySQL",
+        "Tailwind CSS",
+        "Git",
+        "Laravel Forge",
+        "REST APIs"
+      ],
+      "links": [
+        {
+          "label": "MLM Platform",
+          "url": "https://m5nity-global-corp.com/"
+        },
+        {
+          "label": "E-Commerce",
+          "url": "https://shop.m5nity-global-corp.com/ecomm"
+        },
+        {
+          "label": "M5nity Hub",
+          "url": "https://hub.m5nity-global-corp.com/login"
+        },
+        {
+          "label": "Barangay MIS",
+          "url": "https://qiqimutech-bmis.m5nity-global-corp.com/"
+        }
+      ]
+    },
+    {
+      "role": "IT Associate",
+      "company": "EntrePro Inc.",
+      "period": "2023 – 2025",
+      "description": "Full-stack web developer responsible for MLM, e-commerce, and back-office platforms — from architecture and feature development to performance optimization and production support.",
+      "achievements": [
+        "Built a scalable MLM system handling 5,000+ users with custom binary tree logic, ensuring long-term maintainability and real-time performance",
+        "Refactored and modernized legacy MLM logic, resolving system conflicts and improving performance",
+        "Built a custom algorithm for binary tree alignment and accurate downline/member count reporting",
+        "Configured and deployed hardware and software environments to support internal development and employee workstations",
+        "Diagnosed and resolved inconsistencies in the company's e-commerce platform, improving reliability and user experience",
+        "Enhanced e-commerce performance by optimizing queries and frontend components, reducing load time by 40% and increasing user retention",
+        "Maintained and upgraded the Back Office web portal by identifying issues and implementing robust code improvements"
+      ],
+      "technologies": [
+        "PHP",
+        "Laravel",
+        "React",
+        "MySQL",
+        "JavaScript",
+        "Tailwind CSS",
+        "Bootstrap",
+        "REST APIs",
+        "Git"
+      ],
+      "links": []
+    },
+    {
+      "role": "IT Staff",
+      "company": "Royal Amalgamated Product, Inc.",
+      "period": "2020 – 2023",
+      "description": "Provided technical support, system administration, and web development for enterprise operations.",
+      "achievements": [
+        "Developed Web-Based Employee Management System with Payroll, synced with Biometrics attendance (65% complete)",
+        "Delivered onsite technical support and troubleshooting for all employees",
+        "Configured hardware, devices, and software for employee workstations",
+        "Used Crystal Reports for sales reporting and data analysis",
+        "Investigated and resolved printer, copier, and peripheral device issues",
+        "Explained technical concepts clearly to non-technical stakeholders"
+      ],
+      "technologies": [
+        "PHP",
+        "VB.NET",
+        "Crystal Reports",
+        "MySQL",
+        "Hardware Support",
+        "Biometrics"
+      ],
+      "links": []
+    }
+  ],
+  "projects": [
+    {
+      "title": "M5nity MLM Platform",
+      "year": "2025 – Present",
+      "category": "enterprise",
+      "featured": true,
+      "description": "Production MLM platform built from scratch for M5nity Global Corporation — member genealogy, commissions, dashboards, and real-time network management.",
+      "problem": "M5nity needed a custom multi-level marketing system to manage members, track downlines, and run commission workflows on a modern full-stack architecture.",
+      "features": [
+        "Built from scratch with Laravel & React",
+        "Member genealogy & downline tracking",
+        "Commission calculation workflows",
+        "Member dashboard & reporting",
+        "Production deployment via Laravel Forge"
+      ],
+      "technologies": [
+        "Laravel",
+        "React",
+        "MySQL",
+        "Tailwind CSS",
+        "Git",
+        "Laravel Forge"
+      ],
+      "liveUrl": "https://m5nity-global-corp.com/",
+      "githubUrl": null
+    },
+    {
+      "title": "M5nity E-Commerce",
+      "year": "2025 – Present",
+      "category": "enterprise",
+      "featured": true,
+      "description": "Full e-commerce storefront for M5nity product sales — catalog browsing, cart, checkout, and order management integrated with the MLM ecosystem.",
+      "problem": "The company required a dedicated online store for product sales that integrates with their MLM member base and operational workflows.",
+      "features": [
+        "Product catalog & inventory",
+        "Shopping cart & checkout",
+        "Order management",
+        "Member-linked purchasing",
+        "Responsive Tailwind UI"
+      ],
+      "technologies": [
+        "Laravel",
+        "React",
+        "MySQL",
+        "Tailwind CSS",
+        "REST APIs"
+      ],
+      "liveUrl": "https://shop.m5nity-global-corp.com/ecomm",
+      "githubUrl": null
+    },
+    {
+      "title": "M5nity Hub",
+      "year": "2025 – Present",
+      "category": "enterprise",
+      "featured": true,
+      "description": "Internal admin portal for M5nity operations — authentication, system management, and centralized control for administrators and staff.",
+      "problem": "Administrators needed a secure hub to manage users, monitor operations, and control access across M5nity's production systems.",
+      "features": [
+        "Secure login & authentication",
+        "Admin dashboard",
+        "User & role management",
+        "System configuration",
+        "Centralized operations portal"
+      ],
+      "technologies": [
+        "Laravel",
+        "React",
+        "MySQL",
+        "Tailwind CSS",
+        "REST APIs"
+      ],
+      "liveUrl": "https://hub.m5nity-global-corp.com/login",
+      "githubUrl": null
+    },
+    {
+      "title": "Barangay Management Information System",
+      "year": "2025 – Present",
+      "category": "enterprise",
+      "featured": true,
+      "description": "Web-based barangay MIS for online document requests, resident services, and local government workflow management.",
+      "problem": "Barangay offices needed a digital system to replace manual document requests and reduce queues for residents seeking certificates and permits.",
+      "features": [
+        "Online document requests",
+        "Request status tracking",
+        "Admin approval workflow",
+        "Resident portal",
+        "Barangay record management"
+      ],
+      "technologies": [
+        "Laravel",
+        "React",
+        "MySQL",
+        "Tailwind CSS"
+      ],
+      "liveUrl": "https://qiqimutech-bmis.m5nity-global-corp.com/",
+      "githubUrl": null
+    },
+    {
+      "title": "MLM Platform",
+      "year": "2023 – 2025",
+      "category": "enterprise",
+      "featured": true,
+      "description": "Enterprise multi-level marketing platform with custom binary tree logic, real-time member tracking, and commission calculations.",
+      "problem": "The company needed a scalable MLM system that could handle thousands of members with accurate binary tree alignment and real-time reporting.",
+      "features": [
+        "Custom binary tree algorithm",
+        "5,000+ active user support",
+        "Real-time downline tracking",
+        "Commission calculation engine",
+        "Member dashboard & reporting"
+      ],
+      "technologies": [
+        "PHP",
+        "Laravel",
+        "MySQL",
+        "JavaScript",
+        "REST APIs"
+      ],
+      "liveUrl": null,
+      "githubUrl": null
+    },
+    {
+      "title": "E-Commerce Platform",
+      "year": "2023 – 2025",
+      "category": "enterprise",
+      "featured": true,
+      "description": "Full-featured e-commerce platform with optimized performance, inventory management, and order processing.",
+      "problem": "Legacy e-commerce system had performance bottlenecks and data inconsistencies affecting user experience and sales.",
+      "features": [
+        "40% faster load times",
+        "Query optimization",
+        "Order management",
+        "Inventory tracking",
+        "Payment integration"
+      ],
+      "technologies": [
+        "PHP",
+        "Laravel",
+        "MySQL",
+        "React",
+        "JavaScript"
+      ],
+      "liveUrl": null,
+      "githubUrl": null
+    },
+    {
+      "title": "Back Office Portal",
+      "year": "2023 – 2025",
+      "category": "enterprise",
+      "featured": true,
+      "description": "Internal administration portal for managing members, transactions, reports, and system configurations.",
+      "problem": "Administrators needed a centralized portal to manage operations, generate reports, and monitor system health.",
+      "features": [
+        "Admin dashboard",
+        "Member management",
+        "Transaction reporting",
+        "System configuration",
+        "Role-based access"
+      ],
+      "technologies": [
+        "PHP",
+        "Laravel",
+        "MySQL",
+        "JavaScript"
+      ],
+      "liveUrl": null,
+      "githubUrl": null
+    },
+    {
+      "title": "Human Resource Information System",
+      "year": "2025",
+      "category": "freelance",
+      "featured": true,
+      "description": "Web-based HRIS for employee management, leave tracking, attendance monitoring, and performance reporting.",
+      "problem": "HR teams needed to automate manual record-keeping, leave management, and attendance tracking processes.",
+      "features": [
+        "Employee records management",
+        "Leave tracking & approval",
+        "Attendance monitoring",
+        "Performance reports",
+        "HR dashboard analytics"
+      ],
+      "technologies": [
+        "PHP",
+        "Laravel",
+        "MySQL",
+        "Bootstrap"
+      ],
+      "liveUrl": null,
+      "githubUrl": null
+    },
+    {
+      "title": "School Admission Test System",
+      "year": "2022",
+      "category": "freelance",
+      "featured": false,
+      "description": "Web-based admission test with intelligent course program recommendation based on exam results.",
+      "problem": "Students needed guidance choosing the right academic program based on their aptitude test performance.",
+      "features": [
+        "Online examination module",
+        "Course recommendation engine",
+        "Percentage-based scoring per program",
+        "Admin result management",
+        "Student result portal"
+      ],
+      "technologies": [
+        "PHP",
+        "CodeIgniter",
+        "MySQL",
+        "JavaScript"
+      ],
+      "liveUrl": null,
+      "githubUrl": null
+    },
+    {
+      "title": "Student Attendance System",
+      "year": "2022",
+      "category": "freelance",
+      "featured": false,
+      "description": "Cross-platform intelligent attendance monitoring with device registration to prevent proxy attendance.",
+      "problem": "Universities needed a secure attendance system that prevents students from logging in on behalf of absent peers.",
+      "features": [
+        "Device-locked authentication",
+        "Real-time attendance tracking",
+        "Professor subject management",
+        "Performance monitoring",
+        "Cross-platform support"
+      ],
+      "technologies": [
+        "PHP",
+        "MySQL",
+        "JavaScript",
+        "Mobile Integration"
+      ],
+      "liveUrl": null,
+      "githubUrl": null
+    },
+    {
+      "title": "Barangay Document Management",
+      "year": "2022",
+      "category": "freelance",
+      "featured": false,
+      "description": "Online document request system for Barangay Bayanan, Muntinlupa City residents.",
+      "problem": "Residents faced long queues and delays when requesting barangay documents in person.",
+      "features": [
+        "Online document requests",
+        "Request status tracking",
+        "Admin approval workflow",
+        "Resident portal",
+        "Document queue management"
+      ],
+      "technologies": [
+        "PHP",
+        "CodeIgniter",
+        "MySQL"
+      ],
+      "liveUrl": null,
+      "githubUrl": null
+    },
+    {
+      "title": "Employee Management & Payroll",
+      "year": "2020 – 2023",
+      "category": "web",
+      "featured": false,
+      "description": "Web-based employee management system with payroll processing synced to biometric attendance machines.",
+      "problem": "Company needed integrated HR and payroll automation connected to biometric attendance data.",
+      "features": [
+        "Employee records",
+        "Payroll computation",
+        "Biometrics sync",
+        "Attendance integration",
+        "Reporting module"
+      ],
+      "technologies": [
+        "PHP",
+        "VB.NET",
+        "MySQL",
+        "Crystal Reports"
+      ],
+      "liveUrl": null,
+      "githubUrl": null
+    }
+  ],
+  "updatedAt": "2026-06-22"
+}

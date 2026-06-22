@@ -1,0 +1,102 @@
+# Dexter Paul Morales
+> Full-Stack Web Developer — Biñan City, Laguna, Philippines
+
+## Summary
+Results-driven Full-Stack Web Developer with 4+ years of hands-on experience in PHP, Laravel, React, and MySQL. Proven track record of building scalable MLM and e-commerce platforms from scratch, refactoring legacy systems for performance, and delivering enterprise-grade web solutions. Passionate about clean code, performance optimization, and user-centric design.
+
+## Contact
+- Email: morales.dexter.0427@gmail.com
+- Phone: 0916-706-1282
+- Website: https://dexter-morales.github.io
+- GitHub: https://github.com/dexter-morales
+- LinkedIn: https://www.linkedin.com/in/dexter-morales
+- Resume: https://dexter-morales.github.io/resume/morales-dexter-cv.pdf
+
+## Skills
+- **Frontend:** React, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, Bootstrap, Responsive Design
+- **Backend:** PHP, Laravel, CodeIgniter, REST APIs, Python, VB.NET, Node.js
+- **Database:** MySQL, Database Design, Query Optimization, Data Modeling
+- **DevOps & Tools:** Git, GitHub, Laravel Forge, VS Code, Crystal Reports, Hardware Deployment, System Administration
+- **Frameworks & Patterns:** MVC Architecture, Component Architecture, Agile Development, CI/CD Basics
+- **Other:** Arduino (C), Adobe Photoshop, Video Editing, Technical Support, Biometrics Integration
+
+## Experience
+### IT Specialist — M5nity Global Corporation (October 2025 – Present)
+Lead full-stack developer building production web systems from the ground up — MLM platform, e-commerce store, internal hub portal, and barangay management system deployed via Laravel Forge.
+- Developed the company's core MLM platform from scratch with member management, genealogy tracking, and commission workflows
+- Built and launched the e-commerce storefront for product sales and order processing
+- Created M5nity Hub — an internal admin portal for operations, authentication, and system management
+- Delivered a Barangay Management Information System for online document requests and local government workflows
+- Owned full-stack architecture, database design, API development, and production deployment on Laravel Forge
+- Maintained version control and release workflows using Git across all production applications
+- [MLM Platform](https://m5nity-global-corp.com/)
+- [E-Commerce](https://shop.m5nity-global-corp.com/ecomm)
+- [M5nity Hub](https://hub.m5nity-global-corp.com/login)
+- [Barangay MIS](https://qiqimutech-bmis.m5nity-global-corp.com/)
+
+### IT Associate — EntrePro Inc. (2023 – 2025)
+Full-stack web developer responsible for MLM, e-commerce, and back-office platforms — from architecture and feature development to performance optimization and production support.
+- Built a scalable MLM system handling 5,000+ users with custom binary tree logic, ensuring long-term maintainability and real-time performance
+- Refactored and modernized legacy MLM logic, resolving system conflicts and improving performance
+- Built a custom algorithm for binary tree alignment and accurate downline/member count reporting
+- Configured and deployed hardware and software environments to support internal development and employee workstations
+- Diagnosed and resolved inconsistencies in the company's e-commerce platform, improving reliability and user experience
+- Enhanced e-commerce performance by optimizing queries and frontend components, reducing load time by 40% and increasing user retention
+- Maintained and upgraded the Back Office web portal by identifying issues and implementing robust code improvements
+
+### IT Staff — Royal Amalgamated Product, Inc. (2020 – 2023)
+Provided technical support, system administration, and web development for enterprise operations.
+- Developed Web-Based Employee Management System with Payroll, synced with Biometrics attendance (65% complete)
+- Delivered onsite technical support and troubleshooting for all employees
+- Configured hardware, devices, and software for employee workstations
+- Used Crystal Reports for sales reporting and data analysis
+- Investigated and resolved printer, copier, and peripheral device issues
+- Explained technical concepts clearly to non-technical stakeholders
+
+## Featured Projects
+### M5nity MLM Platform (2025 – Present)
+Production MLM platform built from scratch for M5nity Global Corporation — member genealogy, commissions, dashboards, and real-time network management.
+**Problem:** M5nity needed a custom multi-level marketing system to manage members, track downlines, and run commission workflows on a modern full-stack architecture.
+**Tech:** Laravel, React, MySQL, Tailwind CSS, Git, Laravel Forge
+**Live:** https://m5nity-global-corp.com/
+
+### M5nity E-Commerce (2025 – Present)
+Full e-commerce storefront for M5nity product sales — catalog browsing, cart, checkout, and order management integrated with the MLM ecosystem.
+**Problem:** The company required a dedicated online store for product sales that integrates with their MLM member base and operational workflows.
+**Tech:** Laravel, React, MySQL, Tailwind CSS, REST APIs
+**Live:** https://shop.m5nity-global-corp.com/ecomm
+
+### M5nity Hub (2025 – Present)
+Internal admin portal for M5nity operations — authentication, system management, and centralized control for administrators and staff.
+**Problem:** Administrators needed a secure hub to manage users, monitor operations, and control access across M5nity's production systems.
+**Tech:** Laravel, React, MySQL, Tailwind CSS, REST APIs
+**Live:** https://hub.m5nity-global-corp.com/login
+
+### Barangay Management Information System (2025 – Present)
+Web-based barangay MIS for online document requests, resident services, and local government workflow management.
+**Problem:** Barangay offices needed a digital system to replace manual document requests and reduce queues for residents seeking certificates and permits.
+**Tech:** Laravel, React, MySQL, Tailwind CSS
+**Live:** https://qiqimutech-bmis.m5nity-global-corp.com/
+
+### MLM Platform (2023 – 2025)
+Enterprise multi-level marketing platform with custom binary tree logic, real-time member tracking, and commission calculations.
+**Problem:** The company needed a scalable MLM system that could handle thousands of members with accurate binary tree alignment and real-time reporting.
+**Tech:** PHP, Laravel, MySQL, JavaScript, REST APIs
+
+### E-Commerce Platform (2023 – 2025)
+Full-featured e-commerce platform with optimized performance, inventory management, and order processing.
+**Problem:** Legacy e-commerce system had performance bottlenecks and data inconsistencies affecting user experience and sales.
+**Tech:** PHP, Laravel, MySQL, React, JavaScript
+
+### Back Office Portal (2023 – 2025)
+Internal administration portal for managing members, transactions, reports, and system configurations.
+**Problem:** Administrators needed a centralized portal to manage operations, generate reports, and monitor system health.
+**Tech:** PHP, Laravel, MySQL, JavaScript
+
+### Human Resource Information System (2025)
+Web-based HRIS for employee management, leave tracking, attendance monitoring, and performance reporting.
+**Problem:** HR teams needed to automate manual record-keeping, leave management, and attendance tracking processes.
+**Tech:** PHP, Laravel, MySQL, Bootstrap
+
+## Full structured data
+- Machine-readable JSON: https://dexter-morales.github.io/portfolio.json
