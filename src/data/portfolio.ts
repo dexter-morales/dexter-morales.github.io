@@ -6,7 +6,7 @@ export const portfolioData: PortfolioData = {
     firstName: "Dexter",
     title: "Full-Stack Web Developer",
     tagline:
-      "I build scalable, production-ready web applications — from MLM platforms serving 5,000+ users to enterprise HR and e-commerce systems.",
+      "I build scalable, production-ready web applications — from MLM platforms serving 2,000+ users to enterprise HR and e-commerce systems.",
     email: "morales.dexter.0427@gmail.com",
     phone: "0916-706-1282",
     location: "Biñan City, Laguna, Philippines",
@@ -22,7 +22,7 @@ export const portfolioData: PortfolioData = {
       "Results-driven Full-Stack Web Developer with 4+ years of hands-on experience in PHP, Laravel, React, and MySQL. Proven track record of building scalable MLM and e-commerce platforms from scratch, refactoring legacy systems for performance, and delivering enterprise-grade web solutions. Passionate about clean code, performance optimization, and user-centric design.",
     highlights: [
       "Architected and built M5nity Global Corporation's MLM, e-commerce, hub, and barangay systems from scratch",
-      "Built MLM platform handling 5,000+ active users with custom binary tree logic",
+      "Built MLM platform handling 2,000+ active users with custom binary tree logic",
       "Reduced e-commerce load times by 40% through query and frontend optimization",
       "BS Information Technology graduate from Pamantasan ng Lungsod ng Muntinlupa",
     ],
